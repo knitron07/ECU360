@@ -1,0 +1,537 @@
+*{font-family: 'Darker Grotesque', sans-seri}
+
+/* hOme SECTION */
+.home{
+background-image:url("images/home bg.png");
+
+
+}
+
+
+
+
+/* Strength secion */
+/* Our Strength section */
+
+.strength-header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.strength-header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.strength-header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.strength-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+ .strength-header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  .strength-header video {
+    display: none;
+  }
+}
+
+/* Strength css */
+
+.strpara{
+	color: white;
+	font-size: 0.8rem;
+	font-weight: 500;
+	margin-left: 20%;
+	line-height: 1.5;
+
+}
+
+
+
+.strtitle{
+	text-decoration:underline;
+	font-weight: bold;
+	font-size: 2rem;
+
+	margin-left:8%;
+	margin-top: 9%;
+}
+
+.strtitle1{
+	padding:20% 0 0 20%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.strtitle2{
+	padding:15% 0 0 20%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.cardopac{
+
+	border:1.1px solid white;
+	width:35%;
+	height: 28%;
+	position: relative;
+
+}
+
+.cardopactitle1{
+	text-align: center;
+	font-size: 2.3rem;
+	padding-top: 12%;
+}
+
+.cardopacpara1{
+
+	text-align: center;
+	font-size: 0.8rem;
+	font-weight: 400;
+
+
+}
+
+.caropac1{
+	top: 15%;
+
+}
+
+.caropac2{
+	top: 21%;
+	left: 27%;
+}
+
+.caropac3{
+	top: 29%;
+	left: 53%;
+}
+
+.favico1{
+
+	height: 50%;
+	position: absolute;
+	bottom: 77%;
+	left: 10%;
+
+
+}
+
+#videostr{
+  opacity: 0.3;
+}
+/* ECU 360 section */
+
+.features{
+  width:80%;
+  margin:0 10%;
+   text-align: center;
+    background-color: white;
+	padding: 0 auto; ;
+	display: inline-block;
+}
+
+h2{
+	font-size: 1.5rem;
+}
+
+.headline{
+	text-align: center;
+
+
+    font-weight: bold;
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+
+
+.content{
+   text-align: center;
+   font-size: 1.5rem;
+    line-height: 1.5;
+    color: #8f8f8f;
+
+}
+
+video{
+    margin: 10% 0 10% 0;
+    height: 350px;
+    width:50%;
+}
+
+
+
+/* Pop up form  */
+
+
+
+
+
+
+.hero {
+	background-image: url("http://richardmiddleton.me/modal-hero.jpg");
+	background-size: cover;
+	height: 420px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.card-container {
+	max-width: 800px;
+	margin: 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+/* MODAL STARTS HERE  */
+
+.bg-modal {
+	background-color: rgba(42, 89, 158, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-contents {
+	height: 300px;
+	width: 500px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+}
+
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+
+}
+
+.close:hover{
+    color: #666;
+}
+
+ /* Logistic infrastructure section  */
+ .Logistic_detail{
+   margin:5% 25%;
+ }
+
+.circle1{
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border-radius: 50%;
+  margin:0 auto;
+  padding:20% 0;
+
+
+  }
+
+  .element{
+		height:250px;
+		width:250px;
+    border-radius: 40px;
+    box-shadow: 8px 8px 6px 0 rgba(0, 0, 0, 0.25), -8px -8px 6px 0 rgba(255,255,255,0.3);
+
+  }
+  th, td{
+    padding: 10px 10px;
+  }
+
+
+
+
+
+
+  /* GET IN TOUCH WITH US SECTION start */
+
+.get_in_touch{
+  background-color: white;
+}
+.slides-container {
+  margin: 0 auto;
+  width: 30%;
+  height: 400px;
+  position: relative;
+text-align: center;
+
+}
+.slides {
+  display: flex;
+  height: 100%;
+}
+.slide {
+  min-width: 100%;
+
+padding: 0 2%;
+
+}
+.slideimage{
+
+  border-radius: 5%;
+  box-shadow: 8px 8px 6px 0 rgba(0, 0, 0, 0.25), -8px -8px 6px 0 rgba(255,255,255,0.3);
+  width: 96%;
+  height: 100%;
+}
+.slide-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#next-btn-slide {
+  cursor: pointer;
+  background: transparent;
+  font-size: 30px;
+  border: none;
+  color: white;
+  float:right;
+}
+#prev-btn-slide{
+  cursor: pointer;
+  background: transparent;
+  font-size: 30px;
+  border: none;
+  color: white;
+  float: left;
+}
+#next-btn-slide:focus,#prev-btn-slide:focus {
+  outline: none;
+}
+.social_icon_container{
+  margin:5% 25%;
+}
+.circle{
+height: 70px;
+width: 70px;
+background-color: white;
+border-radius: 50%;
+margin:0 auto;
+box-shadow: 8px 8px 6px 0 rgba(0, 0, 0, 0.25), -8px -8px 6px 0 rgba(255,255,255,0.3);
+}
+.social_icon{
+  width:70%;
+  height:70%;
+  margin:15%;
+}
+/* GET IN TOUCH WITH US SECTION END */
+
+
+/* Testimonials section */
+
+
+.custom_carousel{
+  position: relative;
+  width:60%;
+
+  text-align: center;
+  margin:10% 20%;
+}
+.text-block {
+  align-items: center;
+  text-align: center;
+
+  width:80%;
+  position: absolute;
+  bottom: 2%;
+
+  color: white;
+  margin: 10%;
+}
+.car_icon{
+  color: black;
+  opacity: 1;
+}
+
+/* Footer section */
+
+#ship-footer{
+   margin-top: 150px;
+
+
+
+}
+
+#ship-img{
+  height: 300px;
+opacity: 0.1;
+
+}
+
+.card-text{
+
+color: white;
+
+
+}
+
+#footerpara{
+ color: white;
+ font-size: 1.1rem;
+ position: relative;
+ right: 508px;
+ font-weight: bold;
+}
+
+#footpara1{
+color: white;
+font-size: 1rem;
+position: relative;
+right: 508px;
+bottom: 35px;
+
+}
+.rightpara{
+color: white;
+font-size: 1rem;
+font-weight: 600;
+}
+
+.r1{
+
+position: absolute;
+  left: 1100px;
+  top: 20px;
+}
+.r2{
+
+position: absolute;
+  left: 1100px;
+  top: 50px;
+}
+.r3{
+
+position: absolute;
+  left: 1100px;
+  top: 80px;
+}
+
+/* .inp{
+ width: 8%;
+ height: 30px;
+ opacity: 0.2;
+ position: relative;
+ right: 600px;
+ border-color: white;
+
+} */
+
+input.btn{
+width: 13%;
+height: 35px;
+}
+input.btn[type="text"]::-webkit-input-placeholder{
+color: white
+}
+
+.subsc{
+margin-left: 10px;
+}
+
+.cardwidth{
+margin-left: 100px;
+position: relative;
+bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+/* Footersec */
+
+.footernav{
+	background-color: #035aa6;
+	padding-left: 50px;
+}
+
+.nav-item{
+	margin:10px 20px;
+	font-weight: 600;
+}
+
+.iconimg{
+	position: absolute;
+	width: 25px;
+	color: white;
+
+}
+
+.ico1{
+	left: 1100px;
+	top: 250px;
+
+}
+.ico2{
+	left: 1150px;
+	top: 250px;
+
+}
+.ico3{
+	left: 1200px;
+	top: 250px;
+
+}
